@@ -2,3 +2,16 @@
   border-radius: 10%;
   height: 15vw;
 }
+
+.carousel-control-next {
+  background: black;
+}
+
+.carousel-control-prev {
+  background: black;
+}
+
+.carousel-item img {
+  height: 50.45vh;
+  object-fit: contain;
+}
