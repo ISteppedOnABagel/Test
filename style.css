@@ -40,5 +40,55 @@
   background-color: pink;
   border: 0vw;
   color: #000;
-  text-align: justify;
+  text-align: center;
+  margin: 2vw;
+}
+
+.rounded.me-2 {
+  border-radius: 10%;
+  height: 3vw;
+  object-fit: contain;
+}
+
+.card-title {
+  background-color: orange;
+  color: white;
+  padding: 0.5vw;
+  margin: 1vw;
+  text-align: center;
+}
+
+.card-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.card-footer:hover {
+  background-color: rgb(54, 121, 255);
+}
+
+.carousel-control-prev {
+  width: 3vw;
+}
+
+.carousel-control-next {
+  width: 3vw;
+}
+
+.list-group.list-group-horizontal, .list-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw;
+}
+
+.list-group-item {
+  border: transparent;
+}
+
+.list-title {
+  font-family: 'Courier New', Courier, monospace;
 }
