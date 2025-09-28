@@ -87,6 +87,14 @@
 
 .list-group-item {
   border: transparent;
+  background-color: transparent;
+  transition: 2s ease;
+}
+
+.list-group-item:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 0.5);
 }
 
 .list-title {
