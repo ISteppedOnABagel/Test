@@ -13,5 +13,32 @@
 
 .carousel-item img {
   height: 50.45vh;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: black;
+  color: white;
+}
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-img-top {
+  height: 20vw;
+  object-fit: cover;
+  padding: 1vw;
+}
+
+.card-group {
+  padding: 2vw;
+}
+
+.btn.btn-primary {
+  background-color: pink;
+  border: 0vw;
+  color: #000;
+  text-align: justify;
 }
