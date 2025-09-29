@@ -100,3 +100,91 @@
 .list-title {
   font-family: 'Courier New', Courier, monospace;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: .5s ease;
+}
+
+.link:hover {
+  font-size: larger;
+}
+
+.Title-Subject {
+  margin-top: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border-radius: 0.25vw;
+  padding: 0.5vw;
+  width: fit-content
+}
+#image-sub {
+  box-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 0.5);
+  border-radius: 1.5vw;
+  height: 8vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+#me {
+  border-radius: 10%;
+  height: 35vw;
+  text-align: center;
+}
+
+@keyframes float {
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(0, -20px);
+	}
+	100% {
+		transform: translate(0, 0);
+	} }
+
+#image-sub {
+  animation: float 2.6s ease-in-out infinite;
+}
+
+.Page-title {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 3vw;
+  color: black;
+  text-align: left;
+}
+
+::marker {
+  color: transparent;}
+
+.center-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+#min {
+  border-radius: 2vw;
+  height: 30vh;
+  margin-right: 1.5vw;
+  border: rgba(128, 128, 128, 0.378) thin solid;
+  transition: 0.5s ease;
+}
+
+#min:hover {
+  cursor: pointer;
+  border-radius: 15vw;
+  background-color: transparent;
+  transform: scale(0.9);
+}
+
+.Page-title.Hobby {
+  background-color: orange;
+  border-radius: 5vw;
+  color: rgb(0, 0, 0);
+  padding: 0.5vw;
+  margin: 1vw;
+  text-align: center;
+}
