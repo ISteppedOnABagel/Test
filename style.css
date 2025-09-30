@@ -138,7 +138,7 @@
 		transform: translate(0, 0);
 	}
 	50% {
-		transform: translate(0, -20px);
+		transform: translate(0, -3vw);
 	}
 	100% {
 		transform: translate(0, 0);
@@ -225,4 +225,13 @@
 .logo {
   height: 3vw;;
   margin-right: 1vw;
+}
+
+.Page-title.Projects {
+  background-color: rgb(0, 174, 255);
+  border-radius: 5vw;
+  color: rgb(0, 0, 0);
+  padding: 0.5vw;
+  margin: 1vw;
+  text-align: center;
 }
