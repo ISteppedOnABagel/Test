@@ -188,3 +188,41 @@
   margin: 1vw;
   text-align: center;
 }
+
+.card-img-top.pencil {
+  height: 10vw;
+  object-fit: contain;
+  margin-bottom: 0vw;
+  padding: 0vw;
+}
+
+
+@keyframes float2 {
+	0% {
+		transform: translate(0, 0);
+	}
+	25% {
+		transform: translate(-10vw, 0);
+	}
+  50% {
+		transform: translate(20vw, 0);
+	}
+	75% {
+		transform: translate(10vw, 0);}
+
+  100% {
+		transform: translate(0, 0);
+	}
+}
+
+.pencil {
+  width: 300px;
+  padding: 20px;
+  margin-left: 200px;
+  animation: float2 2.5s ease-in-out infinite;
+}
+
+.logo {
+  height: 3vw;;
+  margin-right: 1vw;
+}
